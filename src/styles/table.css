@@ -1,0 +1,39 @@
+.table__header h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: .5rem;
+}
+
+table{
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+thead{
+    text-align: left;
+    background-color: rgba(0, 0, 0, .08);
+    border-radius: .5rem;
+}
+
+thead th{
+    padding: 1rem .5rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+ 
+}
+
+tbody{
+    text-align: left;
+}
+
+
+tbody td{
+    padding: 1rem .7rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+tbody{
+    width: 100%;
+}
