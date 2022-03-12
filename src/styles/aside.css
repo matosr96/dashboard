@@ -1,0 +1,53 @@
+aside{
+    height: 90vh;
+}
+
+aside .sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+aside .sidebar a{
+    height: 4rem;
+    color: var(--color-gray-light);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: .5s;
+    border-radius: 1rem;
+    transition: all .5s;
+}
+
+
+aside .sidebar a i{
+    padding: 0 1rem;
+}
+
+aside .sidebar details{
+    height: 4rem;
+    color: var(--color-gray-light);
+}
+
+
+aside .sidebar a.active{
+    color: var(--color-primary);
+    background-color: #fff;
+    border-radius: 1rem;
+    position: relative;
+}
+
+
+aside .sidebar a.active:before{
+    content: "";
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    background-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+
+aside .sidebar a:hover{
+    color: var(--color-primary);
+}

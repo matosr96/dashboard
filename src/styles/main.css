@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture{
+    margin: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    min-height: 100vh;
+    font-family: var(--font);
+    font-size: 1.6rem;
+    background: var(--color-light);
+    overflow: hidden;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+img,
+picture{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+
+button,
+select{
+    cursor: pointer;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 16rem auto;
+    gap: 2rem;
+    width: 98%;
+    margin: 1rem auto 4rem;
+}
+
+main section{
+ background-color: aqua;
+}
+@media (prefers-reduced-motion: reduce){
+    html:focus-within {
+        scroll-behavior: auto;
+       }
+
+    *,
+    *::before,
+    *::after{
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

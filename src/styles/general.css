@@ -1,0 +1,19 @@
+.bg-primary{
+    background: var(--color-primary);
+}
+
+.bg-dark{
+    background: #27282f;
+}
+
+.line{
+    background-color: rgba(0, 0, 0, .1);
+    height: .1rem;
+
+}
+
+.screen{
+    background-color: var(--color-white);
+    border-radius: .5rem;
+    padding: 1rem;
+}

@@ -1,0 +1,7 @@
+import './variables.css'
+import './main.css'
+import './general.css'
+import './header.css'
+import './aside.css'
+import './home.css'
+import './login.css'

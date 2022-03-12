@@ -1,0 +1,15 @@
+:root{
+
+    --color-white: #fff;
+    --color-light: #f0eff5;
+    --color-gray-light: #86848c;
+    --color-gray-dark: #56555e;
+    --color-dark: #27282f;
+    --color-primary: #1971e4;
+    --color-success: rgb(34, 202, 75);
+    --color-danger: rgb(255, 67, 54);
+    --color-warning: rgb(234, 181, 7);
+
+    --color-primary-light: rgba(71,7, 234, .2);
+    --font: sans-serif
+}
