@@ -6,7 +6,7 @@ import LoginScreen from './screens/LoginScreen';
 
 export default function App() {
 
-  const user = false;
+  const user = true;
   return (
     <BrowserRouter>
     <div className="App">
